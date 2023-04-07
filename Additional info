@@ -1,0 +1,17 @@
+Hello Luc,
+
+I looked back in my archives and found an example with fonts. At the time I generated 3 different fonts, stored as 3 different .py pieces of code. You'll find in the provided exampe how to incorporate these in the main program (basically 5 more funtions added:
+
+    setfont(numfont)
+    settextcursor(x position ,y position)
+    settextcolor(color)
+    printh(string to be printed on screen)
+    drawchar(character)
+
+I didn't retest recently this piece of code, so you might have to debug a little, but it was working quite well. Of course, loading a font in memory reduces even more the available RAM, so you would definetly not want to use this pico for complex programming (butfor display only it would be fine !)
+
+I posted the code in a separate folder.
+
+Have a great day !
+
+Hugh
